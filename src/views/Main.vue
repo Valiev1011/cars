@@ -125,6 +125,9 @@ const models = ref([]);
 }
 .cardd-body {
   background-color: rgb(216, 216, 239);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .btncolor {
   background-color: rgb(71, 71, 165);
